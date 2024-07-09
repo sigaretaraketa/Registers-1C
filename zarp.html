@@ -8,9 +8,11 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
-    <title>Кадры</title>
+    <title>Расчет зарплаты</title>
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/kadr.css">
+    <link rel="stylesheet" href="style/zarp.css">
+    <script src="scripts/script.js"></script>
+
 
 </head>
 
@@ -25,7 +27,7 @@
             <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="kadr.html" class="nav__link" id="kadr">
+                        <a href="kadr.html" class="nav__link">
                             <div class="icon">
                                 <svg id="Layer_1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
                                     data-name="Layer 1">
@@ -131,54 +133,91 @@
         </aside>
 
         <div class="wrapper">
-            <div class="content">
-                <div class="register">
-                    <a href="#!" class="copy-link register__link"
-                        title="e1cib/list/РегистрСведений.ЗанятостьПозицийШтатногоРасписанияИнтервальный">
-                        Занятость позиций штатного расписания интервальный (Регистры сведений)
-                    </a>
-                </div>
-                <div class="register">
-                    <a href="#!" class="copy-link register__link"
-                        title="e1cib/list/РегистрСведений.ОсновныеДанныеКонтрактаДоговораСотрудникаИспр">
-                        Основные данные контракта, договора сотрудника (испр.) (Регистры сведений)
-                    </a>
-                </div>
-                <div class="register">
-                    <a href="#!" class="copy-link register__link"
-                        title="e1cib/list/ПланВидовХарактеристик.ДолжностиПодключаемыеХарактеристики">
-                        Подключаемые характеристики должностей (Планы видов характеристик)
-                    </a>
-                </div>
 
-                <div class="register">
-                    <a href="#!" class="copy-link register__link"
-                        title="e1cib/list/РегистрСведений.ОсновныеДанныеКонтрактаДоговораСотрудника">
-                        Основные данные контракта договора сотрудника (Регистры сведений)
-                    </a>
+            <!-- <iframe class="bg-video"
+                src="https://www.youtube.com/embed/hOscsdoDz_o?si=0ngwSXvxLMBKf0cc?&loop=1&autoplay=1&mute=1&controls=0&loop=1"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe> -->
+
+        
+            <iframe class="bg-video"
+                src="https://www.youtube.com/embed/r_yb1Dnxsxg?si=vaNm_pbOGFOboAOS?&autoplay=1&mute=1&controls=0"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+
+            <div class="content">
+                <div class="block">
+                    <!-- <h2 class="title">
+                        Регистры для проверки начислений
+                    </h2> -->
+                    <div class="register">
+                        <a href="#!" class="copy-link register__link" title="e1cib/list/РегистрРасчета.Начисления">
+                            Начисления (Регистр расчета)
+                        </a>
+                    </div>
+                    <div class="register">
+                        <a href="#!" class="copy-link register__link"
+                            title="e1cib/list/РегистрСведений.ПлановыеНачисления">
+                            Плановые начисления (Регистры сведений)
+                        </a>
+                    </div>
+                    <div class="register">
+                        <a href="#!" class="copy-link register__link"
+                            title="e1cib/list/РегистрСведений.ПрименениеПлановыхНачислений">
+                            Применение плановых начислений (Регистры сведений)
+                        </a>
+                    </div>
+                    <div class="register">
+                        <a href="#!" class="copy-link register__link"
+                            title="e1cib/list/РегистрСведений.ПлановыйФОТИтоги">
+                            Плановый ФОТ итоги (Регистры сведений)
+                        </a>
+                    </div>
+                    <div class="register">
+                        <a href="#!" class="copy-link register__link"
+                            title="e1cib/list/РегистрНакопления.НачисленияУдержанияПоСотрудникам">
+                            Начисления Удержания По Сотрудникам (Регистр накопления)
+                        </a>
+                    </div>
+                    <div class="register">
+                        <a href="#!" class="copy-link register__link"
+                            title="e1cib/list/РегистрНакопления.НачисленияУдержанияПоСотрудникамАвансом">
+                            Начисления удержания по сотрудникам авансом (Регистры накопления)
+                        </a>
+                    </div>
+                    <div class="register">
+                        <a href="#!" class="copy-link register__link"
+                            title="e1cib/list/РегистрСведений.ПрименениеПлановыхНачислений">
+                            Применение плановых начислений (Регистры сведений)
+                        </a>
+                    </div>
+
+                    <div class="register">
+                        <a href="#!" class="copy-link register__link"
+                            title="e1cib/list/РегистрСведений.ЗначенияПериодическихПоказателейРасчетаЗарплатыСотрудников">
+                            Значения периодических показателей расчета зарплаты (для сотрудников) (Регистр сведений)
+                        </a>
+                    </div>
+                    <div class="register">
+                        <a href="#!" class="copy-link register__link"
+                            title="e1cib/list/РегистрСведений.ЗначенияПериодическихПоказателейРасчетаЗарплатыОрганизаций">
+                            Значения периодических показателей расчета зарплаты (для организаций) (Регистры сведений)
+                        </a>
+                    </div>
+                    <div class="register">
+                        <a href="#!" class="copy-link register__link"
+                            title="e1cib/list/РегистрСведений.ЗначенияПериодическихПоказателейРасчетаЗарплатыСотрудниковИнтервальный">
+                            Значения периодических показателей расчета зарплаты (для сотрудников) интервальный (Регистры
+                            сведений)
+                        </a>
+                    </div>
+
                 </div>
-                <div class="register">
-                    <a href="#!" class="copy-link register__link"
-                        title="e1cib/data/РегистрСведений.ТекущиеКадровыеДанныеСотрудников">
-                        Текущие кадровые данные сотрудников (Регистры сведений)
-                    </a>
-                </div>
-                <div class="register">
-                    <a href="#!" class="copy-link register__link"
-                        title="e1cib/list/РегистрСведений.СостоянияСотрудников">
-                        Состояния сотрудников (Регистры сведений)
-                    </a>
-                </div>
-                <div class="register">
-                    <a href="#!" class="copy-link register__link" title="e1cib/list/РегистрСведений.РолиСотрудников">
-                        Роли сотрудников (Регистры сведений)
-                    </a>
-                </div>
-                <div class="register">
-                    <a href="#!" class="copy-link register__link" title="e1cib/list/РегистрСведений.РолиФизическихЛиц">
-                        Роли физических лиц (Регистры сведений)
-                    </a>
-                </div>
+                <!-- Галочка снизу  -->
                 <div class="toast">
                     <div class="toast-content">
                         <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24"
@@ -190,16 +229,11 @@
                     </div>
                     <div class="progress"></div>
                 </div>
-
-
-
             </div>
 
 
         </div>
     </div>
-    </div>
-
     <script src="scripts/copy.js"></script>
 </body>
 

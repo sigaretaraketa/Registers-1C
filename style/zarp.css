@@ -1,0 +1,64 @@
+.nav__list :nth-child(2) {
+    outline: 1px solid;
+    border-color: white;
+    border-radius: 18px;
+}
+
+.nav__list :nth-child(2) .nav__link:hover {
+    color: white;
+    fill: white;
+}
+
+.wrapper {
+    position: relative;
+    padding: 20px;
+
+}
+
+.content {
+    padding: 30px;
+    height: 100%;
+    border-radius: 15px;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.7) 0%, rgba(90, 90, 90, 0.7) 100%);
+
+}
+
+.register {
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.register__link {
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.register:hover {
+    background-color: rgba(241, 241, 241, 0.521);
+    color: black;
+    font-weight: 500;
+}
+
+.bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 115%;
+    height: 115%;
+    z-index: -1;
+}
+
+.block {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    height: 100%;
+    gap: 30px;
+}

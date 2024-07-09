@@ -10,11 +10,12 @@
 }
 
 .wrapper {
-    background: url("../img/otpusk.jpg") no-repeat center center fixed;
+    position: relative;
+    /* background: url("../img/otpusk.jpg") no-repeat center center fixed; */
 }
 
 .content {
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(0.5px);
     padding: 30px;
     display: grid;
     grid-template-columns: 1fr;
@@ -56,4 +57,16 @@
     background-color: white;
     color: #272727;
 
+}
+
+
+.bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 115%;
+    height: 115%;
+    /* Определяем, что все другие элементы на странице будут поверх видео */
+    z-index: -1;
 }
