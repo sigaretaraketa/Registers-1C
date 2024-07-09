@@ -1,0 +1,84 @@
+#kadr {
+    outline: 1px solid;
+    border-color: white;
+    border-radius: 18px;
+}
+
+.nav__list :nth-child(1) .nav__link:hover {
+    color: white;
+    fill: white;
+}
+
+
+.wrapper {
+    padding: 30px 10%;
+    height: 100vh;
+
+}
+
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%;
+    gap: 2px;
+}
+
+.register {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+@keyframes shadow-rotate {
+    0% {
+        box-shadow: 0px 0px 60px #f0f;
+    }
+
+    12.5% {
+        box-shadow: -10px 10px 60px #f0f;
+    }
+
+    25% {
+        box-shadow: -10px 20px 60px #f0f;
+    }
+
+    37.5% {
+        box-shadow: 0px 20px 60px #f0f;
+    }
+
+    50% {
+        box-shadow: 10px 20px 60px #f0f;
+    }
+
+    62.5% {
+        box-shadow: 10px 10px 60px #f0f;
+    }
+
+    75% {
+        box-shadow: 0px 0px 60px #f0f;
+    }
+
+    87.5% {
+        box-shadow: -10px -10px 60px #f0f;
+    }
+
+    100% {
+        box-shadow: -10px -20px 60px #f0f;
+    }
+}
+
+.register__link {
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding: 0 30px;
+
+
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px #f00, 0px 0px 30px #0f0, 0px 0px 40px #00f, 0px 0px 50px #ff0, 0px 0px 60px #f0f;
+    animation: shadow-rotate 2s infinite linear alternate;
+
+}

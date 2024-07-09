@@ -1,0 +1,57 @@
+.nav__list :nth-child(3) {
+    outline: 1px solid;
+    border-color: white;
+    border-radius: 18px;
+}
+
+.nav__list :nth-child(3) .nav__link:hover {
+    color: white;
+    fill: white;
+}
+
+.wrapper {
+    background: url("../img/otpusk.jpg") no-repeat center center fixed;
+}
+
+.content {
+    backdrop-filter: blur(2px);
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+
+    gap: 30px;
+    min-height: 100vh;
+    text-align: center;
+
+}
+
+.block {
+    /* border: 1px white solid; */
+    /* border-radius: 15px; */
+    padding: 15px;
+    background-color: #272727ab;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+
+.register__link {
+    margin: 0 30px;
+    padding: 8px;
+    display: block;
+    font-size: 25px;
+}
+
+.register__link:hover {
+    outline: 1px white solid;
+    border-radius: 15px;
+}
+
+.register__link:active {
+    background-color: white;
+    color: #272727;
+}

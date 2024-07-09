@@ -1,0 +1,151 @@
+.nav__list :nth-child(6) {
+    outline: 1px solid;
+    border-color: white;
+    border-radius: 18px;
+}
+
+.nav__list :nth-child(6) .nav__link:hover {
+    color: #272727;
+    fill: #272727;
+}
+
+/* @keyframes pulse {
+    0% {
+        box-shadow: 0px 0px 11px 14px rgba(255, 255, 255, 0.473);
+    }
+
+    50% {
+        box-shadow: 0px 0px 11px 4px rgb(255, 204, 220);
+        border-color: rgb(253, 204, 220);
+    }
+
+    100% {
+        box-shadow: 0px 0px 11px 14px rgba(255, 255, 255, 0.473);
+    }
+} */
+
+html {
+    background-color: white;
+    color: #e85a4f;
+    text-align: center;
+}
+
+.aside {
+
+    border-right: 1px #272727 solid;
+    background-color: #fff;
+    color: #272727;
+}
+
+.nav__link {
+    fill: #272727;
+}
+
+.wrapper {
+    min-height: 100vh;
+    background: url("../img/flow.jpg") no-repeat center 70% fixed;
+}
+
+.content {
+
+    min-height: 100vh;
+    padding: 30px 40px;
+    backdrop-filter: blur(5px);
+}
+
+
+
+.title {
+    font-size: 35px;
+    font-weight: 300;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.tag {
+    margin-bottom: 10px;
+}
+
+
+.register {
+    margin: 0 auto;
+    width: 1000px;
+    color: #D9196F;
+    font-weight: 600;
+    border: 1px solid #ffffff;
+    /* box-shadow: 0px 0px 7px 11px rgba(255, 255, 255, 0.473); */
+    transition: 0.6s;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    animation: pulse 2s infinite;
+}
+
+
+.register:hover {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(234, 230, 211, 1) 100%);
+    box-shadow: 0px 0px 7px 7px rgba(238, 174, 202, 0.616);
+
+}
+
+.register:active {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgb(235, 149, 186) 0%, rgb(233, 224, 182) 100%);
+
+}
+
+.register__link {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+@keyframes amimate {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 300% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.shadow {
+    position: relative;
+    /* background: url("../img/flow.jpg") no-repeat center 70% fixed; */
+    background-color: #E7E5E8;
+}
+
+
+.shadow:before,
+.shadow:after {
+    content: '';
+    position: absolute;
+    border-radius: 15px;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    background: linear-gradient(45deg, #daa9c0, #fca7df, #ff80c6, #ff55b2, #d33390, #fb0075, #f10d51, #ff55b2, #fc497e, #ff9ccd, #fca7df);
+    background-size: 500%;
+    z-index: -1;
+    animation: amimate 25s ease infinite;
+}
+
+.shadow:after {
+    filter: blur(25px);
+}
+
+.blur {
+    display: block;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    padding: 10px;
+}
