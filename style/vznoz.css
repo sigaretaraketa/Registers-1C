@@ -41,6 +41,10 @@ html {
     fill: #272727;
 }
 
+#Capa_1 {
+    fill: #272727;
+}
+
 .wrapper {
     min-height: 100vh;
     background: url("../img/flow.jpg") no-repeat center 70% fixed;
