@@ -11,9 +11,66 @@
 html {
     background-color: #272727;
     color: white;
+    overflow: hidden;
 }
 
 .main {
     display: grid;
     grid-template-columns: 380px auto;
+}
+
+
+.toast {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.842);
+    padding: 10px;
+    box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transform: translateY(calc(100% + 30px));
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.35);
+}
+
+.chek {
+    fill: rgba(0, 0, 0, 0.842);
+}
+
+.toast.active {
+    transform: translateX(0%);
+}
+
+.toast .toast-content {
+    display: flex;
+    align-items: center;
+}
+
+.toast .progress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+
+}
+
+.toast .progress:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.842);
+}
+
+.progress.active:before {
+    animation: progress 1s linear forwards;
+}
+
+@keyframes progress {
+    100% {
+        right: 100%;
+    }
 }
