@@ -32,39 +32,39 @@
 
 @keyframes shadow-rotate {
     0% {
-        box-shadow: 0px 0px 60px #f0f;
+        box-shadow: 0px 0px 20px #f0f;
     }
 
     12.5% {
-        box-shadow: -10px 10px 60px #f0f;
+        box-shadow: -3px 3px 20px #f0f;
     }
 
     25% {
-        box-shadow: -10px 20px 60px #f0f;
+        box-shadow: -3px 5px 20px #f0f;
     }
 
     37.5% {
-        box-shadow: 0px 20px 60px #f0f;
+        box-shadow: 0px 5px 20px #f0f;
     }
 
     50% {
-        box-shadow: 10px 20px 60px #f0f;
+        box-shadow: 3px 7px 20px #f0f;
     }
 
     62.5% {
-        box-shadow: 10px 10px 60px #f0f;
+        box-shadow: 3px 10px 20px #f0f;
     }
 
     75% {
-        box-shadow: 0px 0px 60px #f0f;
+        box-shadow: 0px 0px 20px #f0f;
     }
 
     87.5% {
-        box-shadow: -10px -10px 60px #f0f;
+        box-shadow: -3px -4px 20px #f0f;
     }
 
     100% {
-        box-shadow: -10px -20px 60px #f0f;
+        box-shadow: -3px -7px 20px #f0f;
     }
 }
 
