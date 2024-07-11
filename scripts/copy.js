@@ -1,3 +1,4 @@
+
 const copyLinks = document.querySelectorAll('.copy-link'),
     toast = document.querySelector(".toast");
 (closeIcon = document.querySelector(".close")),

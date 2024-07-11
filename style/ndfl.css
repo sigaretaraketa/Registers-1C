@@ -1,0 +1,78 @@
+.nav__list :nth-child(5) {
+    outline: 1px solid;
+    border-color: white;
+    border-radius: 18px;
+}
+
+.nav__list :nth-child(5) .nav__link:hover {
+    color: white;
+    fill: white;
+}
+
+.block {
+    padding: 30px;
+
+}
+
+.register {
+
+    margin-bottom: 10px;
+}
+
+
+
+
+.register__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1.4px;
+
+}
+
+.block {
+    margin-top: 430px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 10px;
+
+}
+
+#red :hover {
+    color: rgb(255, 22, 22);
+    text-shadow: 10px -10px 15px red;
+}
+
+#blue :hover {
+    color: rgb(83, 190, 209);
+    text-shadow: 10px -10px 15px rgb(83, 190, 209);
+}
+
+#canvas {
+    position: absolute;
+    background: #00000000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.man {
+    width: 90%;
+
+    position: absolute;
+    left: 280px;
+    z-index: -1;
+}
+
+.content {
+    z-index: 1;
+}
