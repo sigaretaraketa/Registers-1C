@@ -119,7 +119,7 @@ html {
     --tiltX: 0deg;
     --tiltY: 0deg;
     transform: rotateX(var(--tiltX)) rotateY(var(--tiltY));
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .plus-one {
